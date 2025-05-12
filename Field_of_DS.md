@@ -225,7 +225,7 @@ crime %>% ggplot(aes(x = District, y = distinct_crime, fill=District)) +
   geom_col() +labs(title= "Crime per Districts of New York City")
 ```
 
-![](README_figs/README-unnamed-chunk-2-1.png)<!-- -->
+![](README_figs/README-unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
 #Declare region of interest
@@ -251,7 +251,7 @@ Crime_Date %>%
   scale_fill_viridis_c()
 ```
 
-![](README_figs/README-unnamed-chunk-2-2.png)<!-- -->
+![](README_figs/README-unnamed-chunk-3-2.png)<!-- -->
 
 ``` r
 #filter data for Bronx and Manhattan and save to a variable
@@ -331,7 +331,7 @@ Crime_Date %>%
   theme_minimal()
 ```
 
-![](README_figs/README-unnamed-chunk-2-3.png)<!-- -->
+![](README_figs/README-unnamed-chunk-3-3.png)<!-- -->
 
 ``` r
 # Plot for Manhattan with quadratic regression line
@@ -345,7 +345,7 @@ Crime_Date %>%
   theme_minimal()
 ```
 
-![](README_figs/README-unnamed-chunk-2-4.png)<!-- -->
+![](README_figs/README-unnamed-chunk-3-4.png)<!-- -->
 
 \#Conclusion The data showed that crime were mostly carried in late at
 night and in the early hours of the morning. In addition, Brookyln has

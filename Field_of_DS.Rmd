@@ -4,9 +4,10 @@ author: "G. Ubit"
 date: "2025-05-07"
 output: github_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.path = "README_figs/README-")
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
 Statement of Interest: I am interested in understanding  the number of crime rate across different borough in New York City.In addition, I am curious about the timing of these crimes particularly in Bronx.
 
